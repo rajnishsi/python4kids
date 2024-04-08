@@ -1,0 +1,8 @@
+# Accept input from the user
+user_input = input("Enter some input: ")
+
+# Perform some operation on the input
+output = user_input + " is the accepted input."
+
+# Display the output
+print(output)

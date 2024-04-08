@@ -1,0 +1,2 @@
+#spaces = 'snirt' * 50
+print('Mayra' * 10)

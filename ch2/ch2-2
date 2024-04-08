@@ -1,0 +1,4 @@
+name = 'rajnish'
+surname = 'sinha'
+message = 'my name is: %s %s'
+print(message % (name, surname))
