@@ -1,2 +1,16 @@
-my_list = ['a','b','c','d','e']
+my_list = ['spider legs', 'toe of frog', 'eye of newt', 'bat wing', 'slug butter', 'snake dandruff']
+#numbers = [1, 2, 3, 4]
+#combined_list = [numbers, my_list]
+#print(my_list)
+#print(my_list[1])
+#print(my_list[0:2])
+#print(combined_list)
+
+#print(my_list.__contains__('spider legs')) #check for specific item in the list
+#print(my_list.__sizeof__()) #counts the size of list
+my_list.append('bear burp')
+my_list.append('mandrake')
+my_list.append('hemlock')
+my_list.append('swamp gas')
+my_list.remove('swamp gas')
 print(my_list)

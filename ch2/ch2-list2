@@ -1,0 +1,7 @@
+my_list = ['spider legs', 'toe of frog', 'eye of newt', 'bat wing', 'slug butter', 'snake dandruff']
+numbers = [1, 2, 3, 4]
+combined_list = [numbers, my_list]
+#print(my_list)
+#print(my_list[1])
+#print(my_list[0:2])
+print(combined_list)
