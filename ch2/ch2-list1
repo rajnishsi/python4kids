@@ -10,7 +10,9 @@ my_list = ['spider legs', 'toe of frog', 'eye of newt', 'bat wing', 'slug butter
 #print(my_list.__sizeof__()) #counts the size of list
 my_list.append('bear burp')
 my_list.append('mandrake')
-my_list.append('hemlock')
+my_list.append('hemlock')  
 my_list.append('swamp gas')
+print(my_list)
 my_list.remove('swamp gas')
+del my_list[0]
 print(my_list)

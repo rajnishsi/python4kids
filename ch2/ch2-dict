@@ -1,0 +1,26 @@
+favorite_sports = {'Ralph Williams' : 'Football',
+'Michael Tippett' : 'Basketball',
+'Edward Elgar' : 'Baseball',
+'Rebecca Clarke' : 'Netball',
+'Ethel Smyth' : 'Badminton',
+'Frank Bridge' : 'Rugby'} 
+print(favorite_sports['Rebecca Clarke'])
+
+temp_dict = {'a':1,
+          'b':'2'}
+print(temp_dict)
+del temp_dict['a']
+temp_dict['b'] = 3
+print(temp_dict)
+
+favorite_sports = {'Rebecca Clarke': 'Netball',
+'Michael Tippett': 'Basketball',
+'Ralph Williams': 'Ice Hockey',
+'Edward Elgar': 'Baseball',
+'Frank Bridge': 'Rugby'}
+favorite_colors = {'Malcolm Warner' : 'Pink polka dots',
+'James Baxter' : 'Orange stripes',
+'Sue Lee' : 'Purple paisley'}
+print(favorite_colors)
+print(favorite_sports)
+favorite_sports + favorite_colors
